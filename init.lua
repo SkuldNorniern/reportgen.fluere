@@ -15,7 +15,7 @@ function plugin.cleanup()
   -- For now, it's empty, but you can add any necessary cleanup here.
 end
 
-plugin.process_data = function(data)
+function plugin.process_data(data)
   local key = data_process.create_key(data)
   data_process.update_connections(data, key)
   data_process.update_port_usage(data)
