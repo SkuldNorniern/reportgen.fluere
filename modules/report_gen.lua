@@ -103,7 +103,6 @@ function report_gen.generate_report()
   report_gen.write_unique_ports(file, config.port_usage.dst, "\nUnique Destination Ports by Protocol:\n")
   report_gen.write_top_ips(file, config.ip_stats.src, "Top 10 Source IPs by Traffic Volume:\n")
   report_gen.write_top_ips(file, config.ip_stats.dst, "Top 10 Destination IPs by Traffic Volume:\n")
-  print("Report Generated")
 
   file:close()
 end
