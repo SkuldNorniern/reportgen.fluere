@@ -13,4 +13,4 @@
 #### Usage:
 1. add `SkuldNorniern/reportgen.fluere` at the Fluere's config.
 2. Run Fluere in `online`/`live` mode.
-3. Check the `.txt` file for the report.
+3. Check the `.txt` file at the executed dir for the report.
