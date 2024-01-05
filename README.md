@@ -1,7 +1,7 @@
 # ReportGen.Fluere
 ### A Simple Report Generator for Fluere
 
-`ReportGen.Fluere` is a plugin for Fluere that creates straightforward summaries of network activities and saves them to a `.txt` file. It's easy to use and helps in quickly understanding key network metrics.
+`reportgen.fluere` is a plugin for Fluere that creates straightforward summaries of network activities and saves them to a `.txt` file. It's easy to use and helps in quickly understanding key network metrics.
 
 #### Feature list:
 - **Top 10 Connections**: Shows the most active network connections.
